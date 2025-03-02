@@ -12,7 +12,7 @@ export default function Footer() {
                         <h1 className='text-2xl font-extrabold text-[#D4A351]'>Elite Soccer Lab</h1>
                     </div>
                     <div className="flex space-x-4">
-                        <a href="https://www.instagram.com/elitesoccerlab/" target="_blank" rel="noreferrer">
+                        <a href={instagramLink} target="_blank" rel="noreferrer">
                             <img src={Instagram} alt="Instagram" className='h-10' loading='lazy' />
                         </a>
                         <a href={`https://wa.me/${contacts[0].contacto}`} target="_blank" rel="noreferrer">

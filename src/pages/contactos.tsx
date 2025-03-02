@@ -6,8 +6,9 @@ export default function Contactos() {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
 
-        const subject = (event.target as any).subject.value;
-        const message = (event.target as any).message.value;
+        const form = event.target as HTMLFormElement;
+        const subject = (form.elements.namedItem('subject') as HTMLInputElement).value;
+        const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
 
         const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 
@@ -67,7 +68,7 @@ export default function Contactos() {
                                     id="message"
                                     name="message"
                                     className="w-full p-2 border border-gray-300 rounded-md"
-                                    rows="4"
+                                    rows={4}
                                     required
                                 ></textarea>
                             </div>

@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
 
-    const isActive = (path) => {
+    const isActive = (path: string) => {
         return location.pathname === path ? "text-[#D4A351]" : "hover:text-[#D4A351]";
     };
 
