@@ -1,9 +1,14 @@
 {
-  "redirects": [
+  "builds": [
     {
-      "source": "/:match*",
-      "destination": "/",
-      "permanent": false
+      "src": "src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*).js",
+      "dest": "/src/$1.js"
     }
   ]
 }
