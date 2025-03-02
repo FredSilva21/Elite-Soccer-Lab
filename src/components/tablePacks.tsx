@@ -1,6 +1,6 @@
 import { packages, features } from "../constants/packs";
-import CheckIcon from "../assets/icons/check.svg"
-import CrossIcon from "../assets/icons/cross.svg"
+import CheckIcon from "../assets/Icons/check.svg"
+import CrossIcon from "../assets/Icons/cross.svg"
 
 export default function TablePacks() {
     return (
