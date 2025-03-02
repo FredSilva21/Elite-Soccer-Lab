@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import CloseIcon from "../assets/Icons/close-icon.svg";
-import MenuIcon from "../assets/Icons/menu.svg";
+import CloseIcon from "../assets/icons/close-icon.svg";
+import MenuIcon from "../assets/icons/menu.svg";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
