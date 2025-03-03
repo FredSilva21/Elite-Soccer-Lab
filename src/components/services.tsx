@@ -18,7 +18,7 @@ export default function Services() {
                         className="relative bg-white shadow-lg p-6 md:p-8 rounded-2xl h-full flex flex-col justify-space-around border-2 border-[#4A7F54] 
                                    hover:border-[#D4A351] hover:rotate-1 hover:shadow-xl transition-all duration-300 ease-in-out">
                         <h3 className="text-2xl font-bold text-[#4A7F54] mb-4" dangerouslySetInnerHTML={{ __html: servico.titulo }} />
-                        <p className="text-black text-justify">{servico.descricao}</p>
+                        <p className="text-black text-left">{servico.descricao}</p>
                     </div>
                 ))}
             </div>
