@@ -1,5 +1,5 @@
-import Instagram from './assets/Icons/instagram.svg';
-import WhatsApp from './assets/Icons/whatsapp.svg';
+import Instagram from '/Icons/instagram.svg';
+import WhatsApp from '/Icons/whatsapp.svg';
 import { instagramLink, contacts } from '../constants/contacts';
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="container mx-auto flex flex-wrap justify-between items-start px-10">
                 <div className="w-full md:w-1/4 mb-6 md:mb-0">
                     <div className="flex items-center space-x-4 mb-4">
-                        <img src="/assets/logo.webp" alt="Logo" className='h-20' />
+                        <img src="./assets/logo.webp" alt="Logo" className='h-20' />
                         <h1 className='text-2xl font-extrabold text-[#D4A351]'>Elite Soccer Lab</h1>
                     </div>
                     <div className="flex space-x-4">

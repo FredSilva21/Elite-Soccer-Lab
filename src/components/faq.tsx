@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ArrowIcon from "../assets/Icons/arrow-icon.svg"
+import ArrowIcon from "/Icons/arrow-icon.svg"
 
 const faqs = [
     {

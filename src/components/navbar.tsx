@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import CloseIcon from "../assets/Icons/close-icon.svg";
-import MenuIcon from "../assets/Icons/menu.svg";
+import CloseIcon from "/Icons/close-icon.svg";
+import MenuIcon from "/Icons/menu.svg";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         <nav className="flex items-center justify-between w-full px-10 py-5 fixed top-0 shadow-md bg-white z-50">
-            <img src="/assets/logo.webp" alt="Logo" className="h-20" loading="lazy" />
+            <img src="./assets/logo.webp" alt="Logo" className="h-20" loading="lazy" />
 
             {/* Menu Hamburguer */}
             <div className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
