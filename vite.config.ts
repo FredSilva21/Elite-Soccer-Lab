@@ -9,6 +9,6 @@ export default defineConfig({
   ],
   base: "/Elite-Soccer-Lab",
   build: {
-    outDir: "dist",
+    outDir: "build",
   },
 })
