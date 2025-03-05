@@ -1,6 +1,7 @@
 import Instagram from '/Icons/instagram.svg';
 import WhatsApp from '/Icons/whatsapp.svg';
 import { instagramLink, contacts } from '../constants/contacts';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -25,9 +26,9 @@ export default function Footer() {
                 <div className="w-full md:w-1/5 mb-6 md:mb-0">
                     <h4 className="font-semibold mb-3 text-[#D4A351] text-2xl">Empresa</h4>
                     <ul className="space-y-2">
-                        <li><a href="/sobre-nos" className="hover:text-[#D4A351] text-lg">Sobre Nós</a></li>
-                        <li><a href="/contactos" className="hover:text-[#D4A351] text-lg">Contactos</a></li>
-                        <li><a href="/nossa-equipa" className="hover:text-[#D4A351] text-lg">Nossa Equipa</a></li>
+                        <Link to="/sobre-nos" className="hover:text-[#D4A351] text-lg"><li>Sobre Nós</li></Link>
+                        <Link to="/contactos" className="hover:text-[#D4A351] text-lg"><li>Contactos</li></Link>
+                        <Link to="/nossa-equipa" className="hover:text-[#D4A351] text-lg"><li>Nossa Equipa</li></Link>
                     </ul>
                 </div>
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import CloseIcon from "/Icons/close-icon.svg";
 import MenuIcon from "/Icons/menu.svg";
 
@@ -26,41 +26,41 @@ export default function Navbar() {
 
             {/* Menu Desktop */}
             <ul className="hidden md:flex space-x-8 text-lg font-medium">
-                <a href="/">
+                <Link to="/">
                     <li className={`cursor-pointer ${isActive("/")}`}>Início</li>
-                </a>
-                <a href="/precos">
+                </Link>
+                <Link to="/precos">
                     <li className={`cursor-pointer ${isActive("/precos")}`}>Preços</li>
-                </a>
-                <a href="/nossa-equipa">
+                </Link>
+                <Link to="/nossa-equipa">
                     <li className={`cursor-pointer ${isActive("/nossa-equipa")}`}>A Nossa Equipa</li>
-                </a>
-                <a href="/contactos">
+                </Link>
+                <Link to="/contactos">
                     <li className={`cursor-pointer ${isActive("/contactos")}`}>Contactos</li>
-                </a>
-                <a href="/sobre-nos">
+                </Link>
+                <Link to="/sobre-nos">
                     <li className={`cursor-pointer ${isActive("/sobre-nos")}`}>Sobre Nós</li>
-                </a>
+                </Link>
             </ul>
 
             {/* Menu Mobile */}
             {isOpen && (
                 <ul className="absolute top-20 left-0 w-full bg-[#4A7F54] shadow-md flex flex-col items-center space-y-5 py-5 md:hidden text-semibold">
-                    <a href="/">
+                    <Link to="/">
                         <li className={`cursor-pointer ${isActive("/")}`}>Início</li>
-                    </a>
-                    <a href="/precos">
+                    </Link>
+                    <Link to="/precos">
                         <li className={`cursor-pointer ${isActive("/precos")}`}>Preços</li>
-                    </a>
-                    <a href="/nossa-equipa">
+                    </Link>
+                    <Link to="/nossa-equipa">
                         <li className={`cursor-pointer ${isActive("/nossa-equipa")}`}>A Nossa Equipa</li>
-                    </a>
-                    <a href="/contactos">
+                    </Link>
+                    <Link to="/contactos">
                         <li className={`cursor-pointer ${isActive("/contactos")}`}>Contactos</li>
-                    </a>
-                    <a href="/sobre-nos">
+                    </Link>
+                    <Link to="/sobre-nos">
                         <li className={`cursor-pointer ${isActive("/sobre-nos")}`}>Sobre Nós</li>
-                    </a>
+                    </Link>
                 </ul>
             )}
         </nav>

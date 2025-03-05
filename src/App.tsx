@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/landingPage";
 import SobreNos from "./pages/sobreNos";
 import Precos from "./pages/precos";
-import NossaEquipa from "./pages/nossaEquipa"
-import Pessoa from "./pages/pessoa"
+import NossaEquipa from "./pages/nossaEquipa";
+import Pessoa from "./pages/pessoa";
 import Contactos from "./pages/contactos";
 
 const routes = [

@@ -21,7 +21,7 @@ export default function LandingPage() {
                     </p>
                     <button
                         className="mt-6 px-6 py-3 bg-[#D4A351] text-white font-semibold rounded-lg shadow-lg hover:bg-[#B38A42] transition"
-                        onClick={() => window.location.href = "/contactos"}
+                        onClick={() => window.location.href = "/Elite-Soccer-Lab/#/contactos"}
                     >
                         Começa Agora
                     </button>
