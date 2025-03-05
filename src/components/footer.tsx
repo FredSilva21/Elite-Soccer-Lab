@@ -1,5 +1,5 @@
-import Instagram from '../assets/Icons/instagram.svg';
-import WhatsApp from '../assets/Icons/whatsapp.svg';
+import Instagram from './assets/Icons/instagram.svg';
+import WhatsApp from './assets/Icons/whatsapp.svg';
 import { instagramLink, contacts } from '../constants/contacts';
 
 export default function Footer() {
