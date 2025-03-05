@@ -11,7 +11,7 @@ export default function LandingPage() {
 
             <section
                 className="relative w-full h-[80vh] md:h-screen flex items-center justify-center bg-cover bg-center px-4 text-center"
-                style={{ backgroundImage: "url('/assets/heroimage1.webp')" }}
+                style={{ backgroundImage: "url('./assets/heroimage1.webp')" }}
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent"></div>
                 <div className="relative z-10 text-white">
