@@ -12,7 +12,7 @@ export default function SobreNos() {
                     {/* Seção "Sobre Nós" */}
                     <div className="flex flex-col md:flex-row items-center justify-center gap-10">
                         <img
-                            src="/assets/about-1.webp"
+                            src="./assets/about-1.webp"
                             alt="Foto 1"
                             className="w-full max-w-[400px] h-auto rounded-lg"
                             loading="lazy"
@@ -63,7 +63,7 @@ export default function SobreNos() {
                             </p>
                         </div>
                         <img
-                            src="/assets/football.webp"
+                            src="./assets/football.webp"
                             alt="Foto 2"
                             className="w-full max-w-[400px] h-auto rounded-lg"
                             loading="lazy"

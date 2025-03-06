@@ -13,4 +13,4 @@ export const contacts = [
 
 export const email = "EliteSoccerLab@outlook.com"
 
-export const instagramLink = "https://www.instagram.com/eliteSoccerLab"
+export const instagramLink = "https://www.instagram.com/elite.soccerlab?igsh=MWE3MmltbTc4djM5eg=="

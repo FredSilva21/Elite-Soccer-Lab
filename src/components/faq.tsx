@@ -1,22 +1,22 @@
 import { useState } from "react";
-import ArrowIcon from "../assets/Icons/arrow-icon.svg"
+import ArrowIcon from "/Icons/arrow-icon.svg"
 
 const faqs = [
     {
-        question: "O que é a Elite Soccer Lab?",
-        answer: "A Elite Soccer Lab é um centro de treino especializado para jogadores que querem melhorar suas habilidades técnicas, táticas e físicas."
+        question: "Quem é a Elite Soccer Lab?",
+        answer: "A Elite Soccer Lab é uma academia de futebol especializada para jogadores que querem melhorar suas habilidades técnicas, físicas, mentais e metabólicas"
     },
     {
         question: "Quais serviços vocês oferecem?",
-        answer: "Oferecemos treinos personalizados, programas de nutrição esportiva e acompanhamento físico especializado."
+        answer: "Na Elite Soccer Lab oferecemos vários packs treinos personalizados, incluindo treinos de técnica individual, programas de nutrição desportiva, acompanhamento na preparação física e mental coaching vocacionado para o desporto de alto rendimento."
     },
     {
-        question: "Quem pode participar dos treinos?",
-        answer: "Os treinos são abertos para jogadores de todas as idades e níveis, desde iniciantes até atletas profissionais."
+        question: "Quem pode participar na Elite Soccer Lab?",
+        answer: "Os treinos são destinados a todos os jogadores e praticantes da modalidade de futebol, desde idades mais jovens até atletas profissionais"
     },
     {
-        question: "Como posso me inscrever?",
-        answer: "Você pode se inscrever entrando em contato diretamente pelo Instagram ou WhatsApp."
+        question: "Como posso inscrever-me?",
+        answer: "Podes-te inscrever entrando em contacto diretamente por e-mail, instagram ou whatsapp"
     }
 ];
 

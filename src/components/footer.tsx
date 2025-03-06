@@ -1,6 +1,7 @@
-import Instagram from '../assets/Icons/instagram.svg';
-import WhatsApp from '../assets/Icons/whatsapp.svg';
+import Instagram from '/Icons/instagram.svg';
+import WhatsApp from '/Icons/whatsapp.svg';
 import { instagramLink, contacts } from '../constants/contacts';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -8,7 +9,7 @@ export default function Footer() {
             <div className="container mx-auto flex flex-wrap justify-between items-start px-10">
                 <div className="w-full md:w-1/4 mb-6 md:mb-0">
                     <div className="flex items-center space-x-4 mb-4">
-                        <img src="/assets/logo.webp" alt="Logo" className='h-20' />
+                        <img src="./assets/logo.webp" alt="Logo" className='h-20' />
                         <h1 className='text-2xl font-extrabold text-[#D4A351]'>Elite Soccer Lab</h1>
                     </div>
                     <div className="flex space-x-4">
@@ -25,9 +26,9 @@ export default function Footer() {
                 <div className="w-full md:w-1/5 mb-6 md:mb-0">
                     <h4 className="font-semibold mb-3 text-[#D4A351] text-2xl">Empresa</h4>
                     <ul className="space-y-2">
-                        <li><a href="/sobre-nos" className="hover:text-[#D4A351] text-lg">Sobre Nós</a></li>
-                        <li><a href="/contactos" className="hover:text-[#D4A351] text-lg">Contactos</a></li>
-                        <li><a href="/nossa-equipa" className="hover:text-[#D4A351] text-lg">Nossa Equipa</a></li>
+                        <Link to="/sobre-nos" className="hover:text-[#D4A351] text-lg"><li>Sobre Nós</li></Link>
+                        <Link to="/contactos" className="hover:text-[#D4A351] text-lg"><li>Contactos</li></Link>
+                        <Link to="/nossa-equipa" className="hover:text-[#D4A351] text-lg"><li>Nossa Equipa</li></Link>
                     </ul>
                 </div>
 
