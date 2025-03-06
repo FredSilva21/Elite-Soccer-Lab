@@ -4,45 +4,27 @@ export const team = [
         nome: "Pedro Alves",
         foto: "./assets/Pedro.webp",
         funcao: "Fundador e Treinador de Futebol",
-        descricao: `Nascido em Matosinhos, a 21 de junho de 1998, Pedro Alves sempre foi 
-        movido por uma paixão inabalável pelo desporto, com especial foco no 
-        futebol. Desde cedo, dedicou-se ao estudo e à prática da modalidade, 
-        construindo um percurso sólido tanto dentro como fora das quatro linhas. <br><br> 
+        descricao: `Nascido em Matosinhos, a 21 de junho de 1998, Pedro Alves sempre foi movido por uma paixão inabalável pelo
+        desporto, com especial foco no futebol. Desde cedo, dedicou-se ao estudo e à prática da modalidade,
+        construindo um percurso sólido tanto dentro como fora das quatro linhas. <br><br>
 
-        Com uma formação académica robusta, é Licenciado em Ciências do 
-        Desporto – Ramo Treino Desportivo de Alto Rendimento e Mestre em 
-        Ensino da Educação Física nos Ensinos Básico e Secundário. Paralelamente, 
-        especializou-se como Treinador de Futebol UEFA B (Nível 2), acumulando 
-        oito anos de experiência no treino e desenvolvimento de atletas, desde as 
-        camadas jovens até ao alto rendimento. <br><br> 
+        Com uma formação académica robusta, é Licenciado em Ciências do Desporto – Ramo Treino Desportivo de
+        Alto Rendimento e Mestre em Ensino da Educação Física nos Ensinos Básico e Secundário. Paralelamente,
+        especializou-se como Treinador de Futebol UEFA B (Nível 2), acumulando oito anos de experiência no treino e
+        desenvolvimento de atletas, desde as camadas jovens até ao alto rendimento. <br><br>
 
-        Ao longo da sua carreira, passou por clubes como FCPR, Castelo da Maia e 
-        Leixões, onde trabalhou durante cinco anos, adquirindo um conhecimento 
-        profundo sobre os diferentes níveis de formação. Atualmente, é treinador 
-        principal do Leça FC no Campeonato Nacional de Sub-17, onde continua a 
-        aplicar a sua metodologia inovadora no desenvolvimento de jovens 
-        talentos. <br><br> 
+        Ao longo da sua carreira, passou por clubes como FCPR, SC Castelo da Maia e Leixões SC, onde trabalhou
+        durante cinco anos. Atualmente, é treinador principal do Leça FC no Campeonato Nacional de Sub-17, onde
+        continua a aplicar a sua metodologia de treino. <br><br>
 
-        Além da vertente técnica e tática do futebol, Pedro Alves destaca-se 
-        também na área da preparação física e performance atlética. Como 
-        Personal Trainer especializado em alto rendimento, desenha programas de 
-        treino adaptados às exigências do futebol moderno, maximizando o 
-        potencial de cada atleta. O seu compromisso com a educação e o desporto 
-        reflete-se ainda na sua atuação como professor de Educação Física há 
-        quatro anos, onde procura inspirar e formar jovens através da prática 
-        desportiva. <br><br> 
+        Além da vertente técnica e tática do futebol, Pedro Alves destaca-se também na área da preparação física e
+        performance atlética. Como Personal Trainer especializado em alto rendimento, desenha programas de treino
+        adaptados às exigências do futebol moderno, maximizando o potencial de cada atleta. O seu compromisso com
+        a educação e o desporto reflete-se ainda na sua atuação como professor de Educação Física há quatro anos,
+        onde procura inspirar e formar jovens através da prática desportiva. <br><br>
 
-        Com uma carreira de 16 anos como jogador, desde a formação até ao 
-        escalão sénior, Pedro Alves compreende melhor do que ninguém os 
-        desafios que os atletas enfrentam. Foi essa experiência que o motivou a 
-        criar o Elite Football Lab, um espaço de treino de excelência focado no 
-        desenvolvimento individual, onde cada atleta recebe o acompanhamento 
-        necessário para atingir o mais alto nível. <br><br> 
-        No Elite Football Lab, a visão é clara: formar jogadores completos, 
-        preparada física, técnica e mentalmente para enfrentar os desafios do 
-        futebol moderno. Com dedicação, conhecimento e metodologia de ponta, 
-        Pedro Alves está determinado a elevar o nível do treino individual e a ajudar 
-        os atletas a alcançar o seu máximo potencial.`
+        Com uma carreira de 16 anos como jogador, desde a formação até ao escalão sénior, Pedro Alves compreende
+        melhor do que ninguém os desafios que os atletas enfrentam.`,
     },
     {
         id: 2,

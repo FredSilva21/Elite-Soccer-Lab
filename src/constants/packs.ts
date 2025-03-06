@@ -43,7 +43,22 @@ export const packages = [
         ]
     },
     {
-        name: "Pack Full",
+        name: "Pack Field Plus",
+        price: "€174.99",
+        extras: extras,
+        features: [
+            {
+                name: features[0],
+                quantity: 6
+            },
+            {
+                name: features[1],
+                quantity: 4
+            },
+        ]
+    },
+    {
+        name: "Pack Pro",
         price: "€224.99",
         extras: [extras[1]],
         features: [
