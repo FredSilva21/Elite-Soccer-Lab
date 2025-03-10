@@ -7,7 +7,7 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-  base: "/Elite-Soccer-Lab/",
+  base: "/",
   build: {
     outDir: "build",
   },
