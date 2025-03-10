@@ -45,7 +45,7 @@ export default function Navbar() {
 
             {/* Menu Mobile */}
             {isOpen && (
-                <ul className="absolute top-20 left-0 w-full bg-[#4A7F54] shadow-md flex flex-col items-center space-y-5 py-5 md:hidden text-semibold">
+                <ul className="absolute top-20 left-0 w-full bg-[#4A7F54] shadow-md flex flex-col items-center space-y-7 py-8 md:hidden text-semibold text-xl">
                     <Link to="/">
                         <li className={`cursor-pointer ${isActive("/")}`}>Início</li>
                     </Link>

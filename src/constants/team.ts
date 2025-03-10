@@ -2,7 +2,7 @@ export const team = [
     {
         id: 1,
         nome: "Pedro Alves",
-        foto: "./assets/Pedro.webp",
+        foto: "./assets/Pedro.jpg",
         funcao: "Fundador e Treinador de Futebol",
         descricao: `Nascido em Matosinhos, a 21 de junho de 1998, Pedro Alves sempre foi movido por uma paixão inabalável pelo
         desporto, com especial foco no futebol. Desde cedo, dedicou-se ao estudo e à prática da modalidade,
@@ -29,8 +29,8 @@ export const team = [
     {
         id: 2,
         nome: "Vitor Nepumoceno",
-        foto: "./assets/Vitor.webp",
-        funcao: "Fundador e Treinador/Analista de Futebol",
+        foto: "./assets/Vitor.jpg",
+        funcao: "Fundador e Treinador de Futebol",
         descricao: `Co-fundador da academia e um profissional dedicado ao desenvolvimento 
         do futebol. Nascido em Santa Cruz do Sul, Brasil, mudou-se para Portugal 
         com o propósito de aprofundar os seus conhecimentos e aprimorar a sua 
@@ -52,7 +52,7 @@ export const team = [
     {
         id: 3,
         nome: "Mariana Rodrigues",
-        foto: "./assets/Mariana.webp",
+        foto: "./assets/Mariana.jpg",
         funcao: "Nutricionista",
         descricao: `Nutricionista e membro efetivo da Ordem dos Nutricionistas (cédula 
             profissional nº 4870N) desde 2021. Natural de Vila do Conde e licenciada 
@@ -81,7 +81,7 @@ export const team = [
     {
         id: 4,
         nome: "Leonor Rodrigues",
-        foto: "./assets/Leonor.webp",
+        foto: "./assets/Leonor.jpg",
         funcao: "Mental Coach",
         descricao: `
         Licenciada em Psicologia e Mestre em Psicologia e Desenvolvimento de Recursos Humanos. Com uma vasta experiência na área, tem uma grande paixão por trabalhar com crianças e jovens, acreditando profundamente no impacto positivo que a psicologia pode ter no bem-estar e desenvolvimento de cada indivíduo.<br><br>
