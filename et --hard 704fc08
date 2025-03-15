@@ -1,0 +1,23 @@
+[33m186ca7e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeat/gh-pages[m[33m, [m[1;31morigin/feat/gh-pages[m[33m)[m terms and privacy created
+[33m704cf08[m feat: remove unused hero image, update CSS imports, modify Vite base path, and enhance team member details
+[33m8a24ee2[m feat: update FAQ content, modify Instagram link, and enhance team member description
+[33mde37274[m feat: replace anchor tags with Link components for navigation and update image paths
+[33me03a2a0[m feat: update icon imports to use absolute paths and switch to HashRouter
+[33m94e771a[m feat: update icon imports to use relative paths and add new icons
+[33m140aff5[m feat: update base path in Vite configuration to include trailing slash
+[33m37f12ba[m feat: remove unused README and Vercel configuration files
+[33m81eb385[m feat: add public redirects configuration for index.html
+[33m5ae9dc6[m feat: update build output directory to 'build' and add it to .gitignore
+[33m3181b2b[m feat: add React plugin and update build output directory in Vite configuration
+[33m68109bd[m feat: remove unused image assets and update project configuration for deployment
+[33m867f16e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m feat: add images
+[33mbbf3862[m fiz: add headers to vercel config
+[33mf49a2d0[m feat: configure build output directory in Vite configuration
+[33m8171f7f[m fix: add TypeScript types to state and event handlers in components
+[33m08863b5[m feat: update Vercel configuration for static builds and routing
+[33m6284639[m feat: update Vercel configuration for builds and routes
+[33me8e4cdc[m feat: add Vercel configuration for redirects
+[33mfd35607[m fix: update icon import paths to match casing
+[33mf82967e[m fix: update icon import paths to lowercase
+[33m51f7885[m add project
+[33m9e1a3a1[m Initial commit

@@ -5,7 +5,6 @@ import Precos from "./pages/precos";
 import NossaEquipa from "./pages/nossaEquipa";
 import Pessoa from "./pages/pessoa";
 import Contactos from "./pages/contactos";
-import TermsAndPrivacy from "./pages/Termos";
 
 const routes = [
   { path: "/", element: <LandingPage /> },
@@ -14,8 +13,6 @@ const routes = [
   { path: "/nossa-equipa", element: <NossaEquipa /> },
   { path: "/equipa/:id", element: <Pessoa /> },
   { path: "/contactos", element: <Contactos /> },
-  { path: "/termos-e-privacidade", element: <TermsAndPrivacy /> }
-
 ];
 
 function App() {
