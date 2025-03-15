@@ -33,6 +33,7 @@ export default function Footer() {
                         <li><Link to="/sobre-nos" className="hover:text-[#D4A351] text-lg">Sobre Nós</Link></li>
                         <li><Link to="/contactos" className="hover:text-[#D4A351] text-lg">Contactos</Link></li>
                         <li><Link to="/nossa-equipa" className="hover:text-[#D4A351] text-lg">Nossa Equipa</Link></li>
+                        <li><Link to="/termos-e-privacidade" className="hover:text-[#D4A351] text-lg">Termos & Privacidade</Link></li>
                     </ul>
                 </div>
 
